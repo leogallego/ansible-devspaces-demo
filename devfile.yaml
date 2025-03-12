@@ -4,7 +4,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: ghcr.io/ansible/ansible-devspaces@sha256:f5c1e954bada28348077bd1455e7e529aa01631860a2f42b971257d724da4c30 # v25.2.1
+      image: ghcr.io/ansible/ansible-devspaces:v25.2.1
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
